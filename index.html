@@ -21,7 +21,7 @@
         const username = "zainco94";  // ضع اسم المستخدم هنا
         const repo = "Z1";    // ضع اسم المستودع هنا
         const filePath = "index.html"; // ضع مسار الملف هنا
-        const token = "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"; // ضع التوكن الخاص بك هنا
+        let token = prompt("أدخل التوكن الخاص بك:");
 
         function encodeToBase64(str) {
             return btoa(unescape(encodeURIComponent(str)));
